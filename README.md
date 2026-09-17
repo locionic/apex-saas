@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apex SaaS: Figma-Grade Next.js Starter for Developer Tools & AI
 
-## Getting Started
+Apex SaaS is a high-performance, open-source landing page template and starter kit built for developer tools, autonomous AI workflows, and modern cloud startups. Designed with a Figma-inspired dark aesthetic (Linear and Vercel style), it combines sleek bento grid layouts, zero-fat architecture, and instant Vercel edge deployment.
 
-First, run the development server:
+Created and maintained by [Locionic](https://www.locionic.com).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flocionic%2Fapex-saas)
+[![License: MIT](https://img.shields.io/badge/License-MIT-indigo.svg)](https://opensource.org/licenses/MIT)
+[![Lighthouse: 100/100](https://img.shields.io/badge/Lighthouse-100%2F100-emerald.svg)](https://pagespeed.web.dev/)
+
+---
+
+## Key Highlights
+
+- **Linear & Vercel Aesthetic:** Obsidian dark background (`#090d16`), subtle glowing indigo radial gradients, and hairline glassmorphic panels.
+- **Interactive Code Terminal:** Syntax-highlighted code switcher for TypeScript, Python, and cURL with a live simulation runner.
+- **Bento Grid Architecture Showcase:** Modular cards showcasing AI agent loops, global edge caching, end-to-end type safety, and webhook queues.
+- **Interactive Pricing Matrix:** Dynamic monthly vs annual billing toggle with active discount calculation and celebratory feedback.
+- **Social Proof & Testimonials:** Wall of love cards and tech stack integration badges.
+- **Interactive FAQ Accordion:** Expandable answers addressing architecture, licensing, and database setup.
+- **SEO & Search Optimized:** Pre-configured OpenGraph cards, Twitter cards, `SoftwareApplication` JSON-LD schema, `sitemap.xml`, and `robots.txt`.
+- **100/100 Lighthouse Performance:** Zero heavy runtime UI dependencies. Pure React primitives and Tailwind CSS v4.
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js 15+ (App Router with Turbopack)
+- **Language:** TypeScript 5
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React + Inline Brand SVGs
+- **Delight & Animations:** Canvas Confetti
+
+---
+
+## Quick Start
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/locionic/apex-saas.git
+cd apex-saas
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deploy your own live copy with a single click:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flocionic%2Fapex-saas)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Ecosystem & Engineering Guides
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Read the accompanying architecture guide and explore more developer tools at [Locionic](https://www.locionic.com):
+- [Locionic Developer Tools Hub](https://www.locionic.com/en/tools)
+- [JWT Debugger Tool](https://www.locionic.com/en/tools/jwt-debugger)
+- [Cron Expression Builder](https://www.locionic.com/en/tools/cron-builder)
+- [SVG to JSX Converter](https://www.locionic.com/en/tools/svg-to-jsx)
+
+---
+
+## License
+
+MIT License. Free for personal, commercial, and open-source projects.
