@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://apex-saas.vercel.app'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://apex-saas-murex.vercel.app'),
   title: 'Apex SaaS: Figma-Grade Next.js Starter for Developer Tools & AI',
   description:
     'The production-ready, open-source Next.js 15 starter template for developer tools, autonomous AI agents, and SaaS startups. Built with Tailwind CSS v4, TypeScript, and bento grid layouts.',

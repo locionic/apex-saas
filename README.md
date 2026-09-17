@@ -5,6 +5,7 @@ Apex SaaS is a high-performance, open-source landing page template and starter k
 Created and maintained by [Locionic](https://www.locionic.com).
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flocionic%2Fapex-saas)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-apex--saas--murex.vercel.app-6366f1.svg)](https://apex-saas-murex.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-indigo.svg)](https://opensource.org/licenses/MIT)
 [![Lighthouse: 100/100](https://img.shields.io/badge/Lighthouse-100%2F100-emerald.svg)](https://pagespeed.web.dev/)
 
